@@ -1,0 +1,61 @@
+
+ 
+body
+{
+    background-color: gainsboro;
+}
+ 
+.container
+{
+    max-width: 784px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+
+	height: 200px;
+    background-image: url(header.jpg);
+    background-size: cover; 
+    background-position: 0px;
+   
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+
+}
+
+.nav
+{
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+   }
+
+   .nav a:hover {
+   	color: red;
+   }
+
+   h1:hover {
+   	color: brown;
+   }
+ 
+.article
+{
+    width: 584px;
+    margin-right: 10px;
+    float: left;
+}
+
+footer {
+	width : 784px;
+	height: 100%;
+	background-color: brown;
+	padding: 20px;
+	text-align: center;
+}
