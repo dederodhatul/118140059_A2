@@ -1,0 +1,56 @@
+body {
+  background-image: url(image/email-pattern.png);
+}
+
+body header {
+  height: 80px;
+  background-color: brown;
+}
+
+body nav {
+  a: hover;
+  a-color: red;
+}
+
+body nav a {
+  padding: 10px;
+  color: bisque;
+}
+
+body section, body article, body footer {
+  text-align: center;
+}
+
+body section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body .tabel {
+  max-width: 600px;
+  margin: 3em auto;
+}
+
+body footer {
+  padding: 3px;
+  height: 40px;
+  background-color: brown;
+}
+
+body .gambar {
+  padding: 10px;
+}
+
+body .gambar img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #575D63;
+  padding: 10px;
+}
+
+body .gambar img:hover {
+  -webkit-box-shadow: 0 0 9px 4px brown;
+          box-shadow: 0 0 9px 4px brown;
+}
+/*# sourceMappingURL=style.css.map */

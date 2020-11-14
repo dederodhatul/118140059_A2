@@ -1,0 +1,58 @@
+
+body{
+
+    background-image: url(image/email-pattern.png);
+    header {
+        height: 80px;
+        background-color: brown;
+        
+    }
+    
+  
+    nav{
+        a{
+        
+            padding: 10px;
+           color: bisque;
+        }
+        a: hover {
+            color: red;
+        }
+    }
+    
+    section, article, footer{
+        text-align: center;
+    }
+    section {
+      img{
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+      }
+    }
+
+    .tabel{
+        max-width: 600px;
+        margin: 3em auto;
+    }
+    footer{ 
+        padding: 3px;
+        height: 40px;
+        background-color: brown ;
+    }
+
+    .gambar{
+        padding: 10px;
+            img {
+                width: 200px;
+                height: 200px;
+                border: 4px solid #575D63;
+                padding: 10px;
+              }
+
+              img:hover {
+                  box-shadow: 0 0 9px 4px brown;
+              }
+                  
+    }
+}
