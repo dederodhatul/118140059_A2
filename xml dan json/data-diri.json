@@ -1,0 +1,37 @@
+{
+"datadiri":{
+    "nama":{
+        "saya":{
+            "awal":"dede",
+            "tengah": "Rodhatul",
+            "akhir":"Farida"
+        },
+    
+        "saudara":{
+            "awal":"muhammad",
+            "tengah": "Rido",
+            "akhir":"saputra"
+        },
+        "ayah":{
+            "awal":"Rusli"
+        },
+        "ibu":{
+            "awal":"wismalinda"
+        }
+        },
+    "hobby":{
+        "satu":"nyanyi",
+        "dua":"selfie",
+        "tiga":"ngoding"
+    },
+    "jenisKelamin":"perempuan",
+    "alamat":{
+        "desa":"korpri Jaya",
+        "kecamatan":"sukarame",
+        "kota":"bandar lampunng"
+    },
+    "sosialMedia":{
+        "instagram":"ddrdhatul_fa",
+        "linkedin":"dederodhatulfarida"
+    }
+}

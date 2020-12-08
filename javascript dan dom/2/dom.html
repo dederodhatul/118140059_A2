@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi-fungsi DOM</title>
+</head>
+<body>
+
+    <h1 id='judul'>Manipulasi HTML dengan DOM</h1>
+
+    <p>DOM(Document Object Model) adalah model data standar. DOM adalah cara javascript melihat suatu halaman html. DOM adalah sebuah platform dan interface yang memperbolehkan pengaksesan dan perubahan pada konten, struktur, dan style pada sebuah dokumen oleh program dan  script. Istilah HTML DOM mengacu kepada dokumen html. Kasusnya disini ialah konten, struktur, dan style pada dokumen html dapat diakses dan dirubah dengan menggunakan sintaks javascript.</p>
+     <p class="p2">Pada model DOM ini, setiap elemen html dipandang sebagai sebuah object. Setiap object bisa terdiri dari object-object lain, sama halnya dengan dokumen html yang terdiri dari elemen root (elemen ), elemen root terdiri dari elemen dan elemen , elemen boleh jadi terdiri dari elemen <br>
+        beberapa fungsi dom berikut : <ol>
+            <li>getElementById()</li>
+            <li>getElementByClassName()</li>
+            <li>getElementByTagName()</li>
+            <li>querySelector()</li>
+            <li>querySelectorAll()</li>
+        </ol></p>
+
+    <script>
+    const judul = document.getElementById("judul");
+       judul.style.color = 'red';
+        judul.innerHTML = 'Manipulasi HTML dengan fungsi DOM'
+    
+    const p = document.getElementsByTagName('p');
+    for(let i = 0; i<p.length; i++){
+        p[i].style.backgroundColor = 'lightblue';
+    }
+
+    const p2 = document.getElementsByClassName('p2')[0];
+    p2.innerHTML = "paragraph ini diubah menggunakan dom javascript";
+    
+const li2 = document.querySelector('ol li:nth-child(2)');
+li2.style.color = 'red'; 
+
+const li = document.querySelectorAll('li');
+for(let i = 0; i<li.length; i++){
+        li[i].style.backgroundColor = 'green';
+    }
+    </script>
+</body>
+</html>

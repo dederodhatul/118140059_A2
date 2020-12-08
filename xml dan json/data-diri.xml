@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+    <saya>
+        <awal>Dede</awal>
+        <tengah>Rodhatul</tengah>
+        <akhir>Farida<akhir/>
+    <saya>
+    <saudara>
+        <awal>Muhammad</awal>
+        <tengah>Rido</tengah>
+        <akhir>Saputra<akhir/>
+    </saudara>
+     <Ayah>
+        <awal>Rusli</awal>
+    </Ayah>
+    <ibu>
+        <awal>wismalinda</awal>
+    </ibu>
+
+    </nama>
+    <hobby>
+         <satu>nyanyi</satu>
+         <dua>selfie</dua>
+          <tiga>ngoding</tiga>
+    </hobby>
+
+    <jenisKelamin>Perempuan</jenisKelamin>
+
+    <alamat>
+        <desa>korpri Jaya</desa>
+        <kecamatan>Sukarame</kecamatan>
+        <kota>Bandar Lampung</kota>
+    </alamat>
+
+    <sosialMedia>
+        <instagram>ddrdhatul_fa</instagram>
+        <linkdin>dederodhatulfarida</linkedin>
+    </sosialMedia>
+</dataDiri>
